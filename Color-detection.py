@@ -142,7 +142,7 @@ while True:
     stack = stackImages(0.7,([img,result],[imgDil,imgContour]))
  
     cv2.imshow('Horizontal Stacking', stack)
-    if cv2.waitKey(1) &amp; 0xFF == ord('q'):
+    if cv2.waitKey(1) &amp and 0xFF == ord('q'):
         break
  
 cap.release()
