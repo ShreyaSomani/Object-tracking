@@ -192,7 +192,7 @@ while True:
     stack = stackImages(0.9, ([img, result], [imgDil, imgContour]))
     cv2.imshow('Horizontal Stacking', stack)
  
-    if cv2.waitKey(1) &amp; 0xFF == ord('q'):
+    if cv2.waitKey(1) and 0xFF == ord('q'):
         me.land()
         break
  
