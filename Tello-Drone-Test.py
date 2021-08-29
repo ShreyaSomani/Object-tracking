@@ -48,6 +48,6 @@ while True:
     cv2.imshow("MyResult", img)
  
     # WAIT FOR THE 'Q' BUTTON TO STOP
-    if cv2.waitKey(1) &amp; 0xFF == ord('q'):
+    if cv2.waitKey(1) &amp and 0xFF == ord('q'):
         me.land()
         break
